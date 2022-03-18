@@ -1,22 +1,27 @@
 /* TAG */
 
 body {
+  background-color: #1F083F;
   text-align: center;
-  background-image:
-  linear-gradient(#170929, #271147),
-  linear-gradient(to bottom right, #1F083F, transparent),
-  linear-gradient(to top left, #190534, transparent);
-  background-blend-mode: soft-light;
   color: white;
+  margin: 0;
+  background: rgb(29,1,52);
+  background: linear-gradient(208deg, rgba(29,1,52,1) 0%, rgba(39,17,71,1) 100%);
 }
 
 div {
-  margin: 50px auto;
+  width: 450px;
+  margin: auto;
 }
 
 img {
   max-width: 800px;
   margin: auto;
+}
+
+#bordaimg {
+  border: 5px solid #FFD369;
+  border-radius: 100%;
 }
 
 p {
@@ -31,7 +36,6 @@ h1 {
 
 h2 {
   font-family: 'Smooch Sans', sans-serif;
-  margin: 0 auto;
 }
 
 h3 {
@@ -40,7 +44,12 @@ h3 {
 
 hr {
   width: 20%;
-  margin: 20px auto;
+}
+
+
+a:hover {
+  border: 2px solid white;
+  padding: 8px 18px;
 }
 
 /* CLASS */
@@ -50,20 +59,67 @@ hr {
   margin: 20px auto;
 }
 
+.skill1 {
+  text-align: left;
+  max-width:100%;
+  max-height:100%;
+  margin: 100px auto;
+}
+
+.imgSkill1 {
+  float: left;
+  margin: auto 10px;
+  height: 100%;
+  display: block;
+}
+
+.botao {
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: inline-block;
+  margin: auto;
+  background-color: #FFD369;
+  padding: 10px 20px;
+  color: #170929;
+  border-radius: 10rem;
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem #271147);
+  text-decoration: none;
+}
+
+.detalhe {
+  width: 7rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#detalhevirado {
+  transform: rotate(180deg);
+  bottom: 0;
+  right: 0;
+  top: auto;
+  left: auto;
+}
+
 .topCont {
-  padding: 20px;
-  border-top: 2px solid #FFD369;
-  border-bottom: 15px solid #FFD369;
-  border-radius: 20px;
-  max-width: 380px;
-  min-width: 280px;
-  background-color: #1F083F;
-  filter: drop-shadow(1rem 1rem 1rem #271147);
+  background-color: #271147;
+  padding: 60px 0;
+  width: auto;
 }
 
 .top1 {
-  display: block;
-  width: 100%;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  padding: 40px 0 30px 0;
+  min-width: 380px;
+  max-width: 450px;
 }
+
+.topTitle {
+  margin: 0 auto;
+}
+
 
 /* ID */
